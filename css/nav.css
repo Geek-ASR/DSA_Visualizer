@@ -1,0 +1,20 @@
+.nav-container {
+	display: flex;
+	align-items: center;
+	color: wheat;
+	background-color: rgb(48, 48, 48);
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  /* height:50px; */
+  margin-bottom:1rem;
+}
+
+.nav-container h3 {
+  font-size: 3rem;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+}
