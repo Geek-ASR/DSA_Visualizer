@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap'); */
+
+ html{
+   font-size: 62.5%;
+ }
+
+ body {
+   margin: 0;
+   text-align: center;
+   font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	color: black !important;
+ }
+
+.nav-container {
+  height:4.5rem;
+}
+
+/* .nav-container h3 {
+   font-size: 2rem;
+ }  */
