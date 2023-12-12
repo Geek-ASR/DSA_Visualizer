@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+    <!-- here all functionality will be mentioned -->
+    <nav class="nav-container"></nav>
+
+    <!-- here actual visualtion process will be carried -->
+    <div class="multi-visualizer-wrapper">
+      <section class="div-container" id="display-container"></section>
+      <section class="array-visualization" id="display-container-2"></section>
+      <section class="array-visualization-count"></section>
+    </div>
+
+    <!-- here we are displaying subtitles -->
+    <section class="display-container-subtitle">
+      <div class="actual-container"></div>
+    </section>
+
+    <!-- here all methods and process will be mentioned -->
+    <section class="sorting_general-container">
+      <div class="input_area-container">
+        <div class="button_len_random">
+          <button class="btn btn_rand">RANDOM INPUT</button>
+          <input
+            type="number"
+            name="length"
+            id="length"
+            class="disable rand_input"
+          />
+          <button class="btn btn_submit disable">Submit</button>
+        </div>
+        <div class="button_len_manual">
+          <button class="btn btn_man">MANUAL INPUT</button>
+          <input
+            type="text"
+            name="array"
+            id="array"
+            class="disable man_input"
+          />
+          <button class="btn btn_man_submit disable">Submit</button>
+        </div>
+      </div>
+      <div class="sorting_Algos">
+        <button class="btn btn_bubbleSort">Bubble Sort</button>
+        <button class="btn btn_insertionSort">Insertion Sort</button>
+        <button class="btn btn_selectionSort">Selection Sort</button>
+        <button class="btn btn_selectionSort" disabled>Merge Sort</button>
+        <button class="btn btn_selectionSort" disabled>Quick Sort</button>
+        <button class="btn btn_selectionSort" disabled>Heap Sort</button>
+        <button class="btn btn_countingSort">Count Sort</button>
+      </div>
+      <div class="speed_of_Sort">
+        <div class="select_type">
+          <select name="Shape" id="elemType" disabled>
+            <option value="Round">Round</option>
+            <option value="Bar">Bar</option>
+          </select>
+        </div>
+        <label class="speed_of_Sort-label" for="range">Speed</label>
+        <input
+          type="range"
+          name="range"
+          min="-1.5"
+          max="1.5"
+          value="0"
+          step="0.5"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+    </section>
+
+    <!-- <script src="./js/bubbleSort.js"></script> -->
+    <script src="./js/index.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="./js/bubbleSortFlex.js"></script>
+    <script src="./js/selectionSort.js"></script>
+    <script src="./js/insertionSort.js"></script>
+    <script src="./js/countingSort.js"></script>
+  </body>
+</html>
