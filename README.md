@@ -16,8 +16,6 @@ DSA Visualizer provides an interactive and visual representation of various data
 ## Tech Stack
 
 - Frontend: HTML, CSS, JavaScript, React.js
-- Visualization Library: D3.js or other relevant libraries
-- ...
 
 ## Getting Started
 
@@ -35,15 +33,6 @@ DSA Visualizer provides an interactive and visual representation of various data
 
 ## Contributing
 
-We welcome contributions! If you'd like to add a new visualization or improve existing ones, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+We welcome contributions! If you'd like to add a new visualization or improve existing ones. Then you can give pull request after you have made the suitable adjustments.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to [Contributor Name] for their valuable contributions.
-- Inspired by [Source of Inspiration].
-
-Happy visualizing! 🚀
+Happy visualizing! ~ ASR 🚀
