@@ -19,7 +19,7 @@ DSA Visualizer provides an interactive and visual representation of various data
 
 ## Getting Started
 
-1. **Clone the Repository**: `git clone https://github.com/your-username/DSA-Visualizer.git`
+1. **Clone the Repository**: `git clone https://github.com/Geek-ASR/DSA-Visualizer.git`
 2. **Navigate to the Project Folder**: `cd DSA-Visualizer`
 3. **Install Dependencies**: `npm install`
 4. **Start the Application**: `npm start`
@@ -30,9 +30,5 @@ DSA Visualizer provides an interactive and visual representation of various data
 - Choose a data structure or algorithm from the menu.
 - Adjust visualization speed.
 - Explore step-by-step execution and learn DSA concepts visually.
-
-## Contributing
-
-We welcome contributions! If you'd like to add a new visualization or improve existing ones. Then you can give pull request after you have made the suitable adjustments.
 
 Happy visualizing! ~ ASR 🚀
